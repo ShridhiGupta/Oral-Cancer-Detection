@@ -62,10 +62,7 @@ def get_notifications():
     """Get user's notifications"""
     return get_user_notifications()
 
-# ======================
 # PREDICTION ROUTES
-# ======================
-
 @app.route('/test', methods=['GET'])
 def test_route():
     """Simple test route to verify Flask app is working"""
