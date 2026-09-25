@@ -20,10 +20,7 @@ CORS(app, resources={
     }
 })
 
-# ======================
 # AUTHENTICATION ROUTES
-# ======================
-
 @app.route('/api/auth/signup', methods=['POST'])
 def signup():
     """Register a new user"""
