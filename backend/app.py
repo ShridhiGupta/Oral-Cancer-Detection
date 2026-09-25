@@ -178,10 +178,7 @@ def static_files(filename):
     """Serve static files"""
     return send_from_directory('../frontend', filename)
 
-# ======================
 # ERROR HANDLERS
-# ======================
-
 @app.errorhandler(404)
 def not_found(error):
     """Handle 404 errors"""
