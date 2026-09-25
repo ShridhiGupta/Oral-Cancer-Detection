@@ -155,10 +155,7 @@ def predict_mock_route():
         print(f"Full traceback: {traceback.format_exc()}")
         return jsonify({'error': 'Internal server error'}), 500
 
-# ======================
 # FRONTEND ROUTES
-# ======================
-
 @app.route('/')
 def index():
     """Serve the main frontend"""
