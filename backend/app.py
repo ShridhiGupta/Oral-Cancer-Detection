@@ -37,10 +37,7 @@ def get_me():
     """Get current user info"""
     return get_current_user()
 
-# ======================
 # USER ROUTES
-# ======================
-
 @app.route('/api/user/analyses', methods=['GET'])
 @token_required
 def get_analyses():
