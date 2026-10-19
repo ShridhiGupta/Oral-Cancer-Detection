@@ -111,7 +111,7 @@ oral_cancer_detection/
 └── README.md              # This file
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/signup` - Register new user
@@ -126,7 +126,7 @@ oral_cancer_detection/
 - `GET /api/user/stats` - Get user statistics
 - `GET /api/user/notifications` - Get user notifications
 
-## 🧪 Testing
+## Testing
 
 The project includes several test files:
 - `test_api.py` - API endpoint testing
@@ -140,7 +140,7 @@ Run tests with:
 python test_api.py
 ```
 
-## 🎯 Model Performance
+## Model Performance
 
 The ResNet18 model is trained on oral cavity images and provides:
 - **Input**: 224x224 RGB images
@@ -148,7 +148,7 @@ The ResNet18 model is trained on oral cavity images and provides:
 - **Accuracy**: High accuracy on validation dataset
 - **Inference Time**: < 1 second per image
 
-## 🔒 Security Features
+## Security Features
 
 - JWT-based authentication
 - Password hashing with bcrypt
@@ -156,21 +156,21 @@ The ResNet18 model is trained on oral cavity images and provides:
 - Input validation and sanitization
 - Secure file upload handling
 
-## 🌐 Browser Support
+## Browser Support
 
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
 - Edge 90+
 
-## 📊 Dataset
+## Dataset
 
 The model is trained on a curated dataset of oral cavity images:
 - **Normal**: Healthy oral cavity images
 - **Benign**: Non-cancerous abnormalities
 - **Malignant**: Cancerous lesions
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
