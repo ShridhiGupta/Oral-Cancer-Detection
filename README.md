@@ -2,7 +2,7 @@
 
 An AI-powered web application for early detection of oral cancer using deep learning and computer vision. This project leverages a ResNet18-based neural network to analyze oral cavity images and provide probabilistic assessments for cancer detection.
 
-## 🌟 Features
+## Features
 
 - **AI-Powered Detection**: Uses a trained ResNet18 model for accurate image classification
 - **User Authentication**: Secure login/registration system with JWT tokens
@@ -11,7 +11,7 @@ An AI-powered web application for early detection of oral cancer using deep lear
 - **User Dashboard**: Track analysis history and personal statistics
 - **Educational Resources**: Comprehensive information about oral cancer prevention and detection
 
-## 🏗️ Architecture
+## Architecture
 
 ### Backend (Flask)
 - **Framework**: Flask with CORS support
@@ -32,7 +32,7 @@ An AI-powered web application for early detection of oral cancer using deep lear
 - **Input**: Oral cavity images
 - **Framework**: PyTorch
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -87,7 +87,7 @@ An AI-powered web application for early detection of oral cancer using deep lear
    - Frontend: http://localhost:5000
    - API Base URL: http://localhost:5000/api
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 oral_cancer_detection/
