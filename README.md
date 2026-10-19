@@ -189,8 +189,8 @@ This application is for educational and research purposes only. It should not be
 ## Contact
 
 For questions, suggestions, or collaborations:
-- Email: guptashridhi11@gmail.com[guptashridhi11@gmail.com]
-- GitHub: ShridhiGupta[https://www.github.com/ShridhiGupta]
+- Email: guptashridhi11@gmail.com
+- GitHub: ShridhiGupta
 
 ## Acknowledgments
 
